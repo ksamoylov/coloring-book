@@ -1,0 +1,8 @@
+.palette {
+  padding: 30px;
+  border-radius: 10px;
+  margin: auto 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}

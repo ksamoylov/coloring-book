@@ -1,0 +1,11 @@
+.palette-item {
+  width: 60px;
+  height: 60px;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.palette-item-active {
+  width: 80px;
+  height: 80px;
+}
