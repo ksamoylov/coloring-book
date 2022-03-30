@@ -21,7 +21,6 @@ function App() {
         }/>
         <Flower
           onFill={(e) => {
-            colors[e.target.id] = chosenColor;
             e.target.style.fill = chosenColor;
           }}
         />
