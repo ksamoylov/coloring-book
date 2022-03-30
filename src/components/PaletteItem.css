@@ -3,6 +3,7 @@
   height: 60px;
   margin: 15px;
   border-radius: 10px;
+  cursor: pointer;
 }
 
 .palette-item-active {
