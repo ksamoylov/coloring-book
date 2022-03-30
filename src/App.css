@@ -1,6 +1,6 @@
 body {
-  background: rgb(2, 0, 36);
-  background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(117, 9, 121, 1) 44%, rgba(75, 246, 246, 1) 100%);
+  background: rgb(39,34,124);
+  background: linear-gradient(90deg, rgba(39,34,124,1) 0%, rgba(96,105,144,1) 23%, rgba(167,24,158,1) 100%);
 }
 
 .App {
@@ -15,7 +15,8 @@ body {
 .container {
   display: flex;
   padding: 30px;
-  justify-content: space-around;
+  justify-content: center;
+  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {
