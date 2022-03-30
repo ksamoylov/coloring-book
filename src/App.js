@@ -1,17 +1,25 @@
 import './App.css';
 import {useState} from "react";
+import {
+  Routes,
+  Route,
+} from "react-router-dom";
 import Palette from "./components/Palette";
 import MonaLisa from "./components/books/MonaLisa";
+import Flower from "./components/books/Flower";
+import Tracery from "./components/books/Tracery";
+import Train from "./components/books/Train";
 
 const defaultColor = '#166035';
 
 const colors = [
-  '#166035', '#45C063', '#9FFF28',
-  '#FC8A34', '#F6BA0F', '#FEFF24',
-  '#B4042D', '#FC3646', '#E86B6C',
-  '#390070', '#9D00ED', '#F600B0',
-  '#0E007C', '#0E00FD', '#1B81C5',
-  '#381304', '#845F44', '#C4965B',
+  '#9FFF28', '#45C063', '#166035',
+  '#FEFF24', '#F6BA0F', '#FC8A34',
+  '#E86B6C', '#FC3646', '#B4042D',
+  '#F600B0', '#9D00ED', '#390070',
+  '#C2E3F3', '#0E00FD', '#0E007C',
+  '#C4965B', '#845F44', '#381304',
+  '#ffffff', '#aaaaaa', '#000000',
 ];
 
 function App() {
@@ -24,7 +32,20 @@ function App() {
   return (
     <div className="App">
       <div className="container">
-        <MonaLisa onFill={fillColor}/>
+        <Routes>
+          <Route path="/mona-lisa/" element={
+            <MonaLisa onFill={fillColor}/>
+          }/>
+          <Route path="/flower/" element={
+            <Flower onFill={fillColor}/>
+          }/>
+          <Route path="/tracery/" element={
+            <Tracery onFill={fillColor}/>
+          }/>
+          <Route path="/train/" element={
+            <Train onFill={fillColor}/>
+          }/>
+        </Routes>
         <Palette
           colors={colors}
           currentColor={chosenColor}

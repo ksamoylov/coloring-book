@@ -1,6 +1,6 @@
 import React from "react";
 
-export default class SecondFlower extends React.Component {
+export default class Tracery extends React.Component {
   render() {
     return (
       <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px"
