@@ -1,13 +1,17 @@
 import './App.css';
-import Flower from "./components/Flower";
 import {useState} from "react";
 import Palette from "./components/Palette";
+import SecondFlower from "./components/books/SecondFlower";
 
 const defaultColor = '#e7e732';
 const colors = ['#e7e732', '#ee5456', '#011c6a', '#0f51d1', '#33FF54',];
 
 function App() {
   const [chosenColor, setChosenColor] = useState(defaultColor);
+
+  const fillColor = e => {
+    e.target.style.fill = chosenColor;
+  }
 
   return (
     <div className="App">
@@ -19,11 +23,8 @@ function App() {
             setChosenColor(color);
           }
         }/>
-        <Flower
-          onFill={(e) => {
-            e.target.style.fill = chosenColor;
-          }}
-        />
+
+        <SecondFlower onFill={fillColor}/>
       </div>
     </div>
   );
