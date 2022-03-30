@@ -16,7 +16,6 @@ body {
   display: flex;
   padding: 30px;
   justify-content: center;
-  width: 100%;
 }
 
 @media (prefers-reduced-motion: no-preference) {

@@ -24,7 +24,7 @@ export default class Train extends React.Component {
       '  .st19{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}\n' +
       '  .st20{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}\n' +
       '  .st21{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}\n' +
-      '  .st22{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}\n' +
+      '  .st22{fill:#FFFFFF;stroke:#000000;stroke-width:1;stroke-miterlimit:10;}\n' +
       '  .st23{fill:#FFFFFF;stroke:#000000;stroke-width:0.75;stroke-miterlimit:10;}\n' +
       '  .st24{fill:#FFFFFF;stroke:#000000;stroke-miterlimit:10;}\n' +
       '  .st25{fill:#FFFFFF;stroke:#000000;stroke-width:2;stroke-miterlimit:10;}\n' +
@@ -143,8 +143,6 @@ export default class Train extends React.Component {
 	C369.6,442.6,360.5,427,360.5,427z"/>
         <path onClick={e => this.props.onFill(e)} className="st13" d="M255,361.5l52-1.1c11.4,12.2,21.2,24.9,30.5,36.5l-73.2-6.8c-7.9-0.6-8.7-4.9-8.7-4.9l-7.6-20.7
 	C248.3,360.9,255,361.5,255,361.5z"/>
-        <path onClick={e => this.props.onFill(e)} className="st14" d="M334.5,417.5c1.5,2.8,4.4,4.4,6.3,3.5c1.9-0.9,2.3-3.9,0.7-6.7c-1.6-2.8-4.4-4.4-6.3-3.5
-	C333.3,411.7,332.9,414.7,334.5,417.5z"/>
         <path onClick={e => this.props.onFill(e)} className="st15" d="M345.7,418.2c0.7,1.8,2.3,2.9,3.5,2.5c1.2-0.4,1.7-2.2,0.9-4c-0.7-1.8-2.3-2.9-3.5-2.5
 	S344.9,416.4,345.7,418.2z"/>
         <path onClick={e => this.props.onFill(e)} className="st16" d="M242.8,411.2l-12,0.2c0.3,0.8,0.8,1.6,1.6,2.1c1.3,1,7.2,0.3,7.2,0.3s2.7-0.1,3.5-0.8
@@ -218,7 +216,7 @@ export default class Train extends React.Component {
 		c0,0,49.2,6.6,34.7,54.2c-14.4,47.6-47.2,38.7-72.7,23C426.7,390.1,402.5,413.1,368,388.3z"/>
         </g>
         <g>
-          <polygon className="st27" points="49.5,397.4 44,393.5 75.9,344.4 81.4,348.3 	"/>
+          <polygon onClick={e => this.props.onFill(e)} className="st27" points="49.5,397.4 44,393.5 75.9,344.4 81.4,348.3 	"/>
           <rect onClick={e => this.props.onFill(e)} x="40.2" y="355.7" className="st27" width="9.1" height="109.4"/>
           <ellipse onClick={e => this.props.onFill(e)} className="st28" cx="44.8" cy="316.6" rx="39.7" ry="41.2"/>
           <ellipse onClick={e => this.props.onFill(e)} className="st28" cx="79.9" cy="339.4" rx="22.7" ry="23.6"/>
