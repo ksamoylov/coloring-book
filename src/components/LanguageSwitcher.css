@@ -1,0 +1,15 @@
+.switch-btn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  width: 40px;
+  font-weight: bold;
+  text-transform: uppercase;
+  background: #F600B0;
+  opacity: 0.6;
+  border-bottom-right-radius: 6px;
+}
+

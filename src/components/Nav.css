@@ -1,3 +1,10 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 #nav {
   color: #ffffff;
 }
@@ -10,4 +17,10 @@
   background: #a7189e;
   border-radius: 10px;
   font-weight: bold;
+}
+
+@media (max-width: 567px) {
+  #nav {
+    margin-top: 50px;
+  }
 }

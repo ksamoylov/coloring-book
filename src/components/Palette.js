@@ -13,7 +13,7 @@ export default class Palette extends React.Component {
       />
     });
 
-    return <div className="palette">
+    return <div className="palette" style={this.props.style}>
       {paletteItems}
     </div>;
   }

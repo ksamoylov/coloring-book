@@ -13,3 +13,19 @@
   margin: 10px;
   box-shadow: 10px 10px 10px black;
 }
+
+@media (max-width: 567px) {
+  .palette-item {
+    width: 30px;
+    height: 30px;
+    box-shadow: 2px 2px 2px black;
+    margin: 10px;
+  }
+
+  .palette-item-active {
+    width: 40px;
+    height: 40px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px black;
+  }
+}
