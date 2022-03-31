@@ -17,6 +17,7 @@ nav {
   background: #a7189e;
   border-radius: 10px;
   font-weight: bold;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.74);
 }
 
 @media (max-width: 567px) {

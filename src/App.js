@@ -11,6 +11,7 @@ import Nav from "./components/Nav";
 import {translations} from "./utils/LocalizedStrings";
 import LanguageSwitcher from "./components/LanguageSwitcher";
 import Book from "./components/Book";
+import Tracery from "./components/books/Tracery";
 
 const defaultColor = '#9FFF28';
 
@@ -59,7 +60,7 @@ function App() {
               chosenColor={chosenColor}
               onChangeColor={changeColor}
               component={
-                <Train onFill={fillColor}/>}
+                <Tracery onFill={fillColor}/>}
             />}
           />
           <Route path="/flower/" element={
