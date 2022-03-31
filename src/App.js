@@ -9,6 +9,7 @@ import MonaLisa from "./components/books/MonaLisa";
 import Flower from "./components/books/Flower";
 import Tracery from "./components/books/Tracery";
 import Train from "./components/books/Train";
+import Nav from "./components/Nav";
 
 const defaultColor = '#166035';
 
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <div className="App">
+      <Nav/>
       <div className="container">
         <Routes>
           <Route path="/mona-lisa/" element={

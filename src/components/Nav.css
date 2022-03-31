@@ -1,0 +1,13 @@
+#nav {
+  color: #ffffff;
+}
+
+#nav a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+  margin: 10px;
+  background: #a7189e;
+  border-radius: 10px;
+  font-weight: bold;
+}
