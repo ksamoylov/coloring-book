@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ksamoylov/coloring-book/static/css/main.e70b8646.css",
+    "main.js": "/ksamoylov/coloring-book/static/js/main.0d8ff977.js",
+    "static/js/787.6594f885.chunk.js": "/ksamoylov/coloring-book/static/js/787.6594f885.chunk.js",
+    "index.html": "/ksamoylov/coloring-book/index.html",
+    "main.e70b8646.css.map": "/ksamoylov/coloring-book/static/css/main.e70b8646.css.map",
+    "main.0d8ff977.js.map": "/ksamoylov/coloring-book/static/js/main.0d8ff977.js.map",
+    "787.6594f885.chunk.js.map": "/ksamoylov/coloring-book/static/js/787.6594f885.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e70b8646.css",
+    "static/js/main.0d8ff977.js"
+  ]
+}
