@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/ksamoylov/coloring-book/static/css/main.e70b8646.css",
-    "main.js": "/ksamoylov/coloring-book/static/js/main.3cb3697d.js",
-    "static/js/787.6594f885.chunk.js": "/ksamoylov/coloring-book/static/js/787.6594f885.chunk.js",
-    "index.html": "/ksamoylov/coloring-book/index.html",
-    "main.e70b8646.css.map": "/ksamoylov/coloring-book/static/css/main.e70b8646.css.map",
-    "main.3cb3697d.js.map": "/ksamoylov/coloring-book/static/js/main.3cb3697d.js.map",
-    "787.6594f885.chunk.js.map": "/ksamoylov/coloring-book/static/js/787.6594f885.chunk.js.map"
+    "main.css": "./static/css/main.17789779.css",
+    "main.js": "./static/js/main.01405e57.js",
+    "static/js/787.6594f885.chunk.js": "./static/js/787.6594f885.chunk.js",
+    "index.html": "./index.html",
+    "main.17789779.css.map": "./static/css/main.17789779.css.map",
+    "main.01405e57.js.map": "./static/js/main.01405e57.js.map",
+    "787.6594f885.chunk.js.map": "./static/js/787.6594f885.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e70b8646.css",
-    "static/js/main.3cb3697d.js"
+    "static/css/main.17789779.css",
+    "static/js/main.01405e57.js"
   ]
 }
