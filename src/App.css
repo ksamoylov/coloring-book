@@ -76,3 +76,9 @@ body {
     transform: rotate(360deg);
   }
 }
+
+@media (max-width: 1365px) {
+    .book-item {
+        min-width: 60%;
+    }
+}
